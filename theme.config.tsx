@@ -2,16 +2,10 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
-  project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
-  },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  logo: <h2 style={{ fontWeight: "bolder" }}>Simpleuid</h2>,
+  docsRepositoryBase: 'https://github.com/w-kuipers/simpleuid-docs',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Random ID generation in Python',
   },
 }
 

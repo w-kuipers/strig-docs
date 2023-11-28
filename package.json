@@ -3,13 +3,13 @@
   "version": "0.0.1",
   "description": "Nextra docs template",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 5000",
     "build": "next build",
     "start": "next start"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/w-kuipers/simpleuid-docs"
   },
   "author": "Shu Ding <g@shud.in>",
   "license": "MIT",
