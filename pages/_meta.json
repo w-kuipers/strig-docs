@@ -1,3 +1,10 @@
 {
-  "index": "Introduction"
+  	"index": "Introduction",
+  	"installation": "Installation",
+  	"-- usage": {
+		"type": "separator",
+		"title": "Usage"
+  	},
+	"quickstart": "Quickstart",
+	"functions": "functions"
 }
