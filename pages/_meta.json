@@ -6,5 +6,10 @@
 		"title": "Usage"
   	},
 	"quickstart": "Quickstart",
-	"functions": "Functions"
+	"functions": "Functions",
+  	"-- helpers": {
+		"type": "separator",
+		"title": "Helpers"
+  	},
+	"variables": "Variables"
 }

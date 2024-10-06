@@ -1,0 +1,25 @@
+# `var()` dates
+
+The `var()` function provides a variety of date-related variables that can be used to create dynamic date and time strings. This page details all the available date variables.
+
+| Variable         | Description                                                | Example Output          |
+|------------------|------------------------------------------------------------|-------------------------|
+| `%yyyy%`         | Returns the full year in 4 digits.                         | `2024`                  |
+| `%yy%`           | Returns the last 2 digits of the year.                     | `24`                    |
+| `%mm%`           | Returns the month in 2 digits, zero-padded.                | `04`, `11`              |
+| `%m%`            | Returns the month as an integer (without zero-padding).    | `4`, `11`               |
+| `%dd%`           | Returns the day of the month in 2 digits, zero-padded.     | `06`, `15`              |
+| `%d%`            | Returns the day of the month as an integer (without zero-padding). | `6`, `15`        |
+| `%weekday_name%` | Returns the full name of the weekday.                      | `Monday`, `Friday`      |
+| `%w%`            | Returns the weekday as a number (0 for Monday, 6 for Sunday). | `0`, `6`             |
+| `%month_name%`   | Returns the full name of the month.                        | `October`, `December`   |
+| `%month_short%`  | Returns the abbreviated name of the month.                 | `Oct`, `Dec`            |
+| `%week%`         | Returns the ISO week number of the year.                   | `41`, `52`              |
+| `%day_of_year%`  | Returns the day of the year (1 to 365 or 366 in leap years). | `279`, `365`          |
+| `%ampm%`         | Returns either `AM` or `PM`, indicating the time of day.   | `AM`, `PM`              |
+| `%hh%`           | Returns the hour in 2 digits (24-hour format), zero-padded. | `08`, `17`            |
+| `%h%`            | Returns the hour as an integer (24-hour format).           | `8`, `17`               |
+| `%minute%`       | Returns the minute in 2 digits, zero-padded.               | `09`, `45`              |
+| `%quarter%`      | Returns the current quarter of the year (1-4).             | `1`, `4`                |
+| `%timestamp%`    | Returns the current Unix timestamp (seconds since 1970-01-01). | `1723612400`       |
+

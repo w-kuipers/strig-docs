@@ -1,0 +1,18 @@
+# `var()` system
+
+The `var()` function supports a variety of OS-related variables that can be used to provide information about the system environment. 
+
+| Variable        | Description                                                | Example Output          |
+|-----------------|------------------------------------------------------------|-------------------------|
+| `%system%`      | Returns the name of the operating system.                  | `Windows`, `Linux`, `macOS` |
+| `%release%`     | Returns the release of the operating system.               | `10`, `5.8.0-55-generic` |
+| `%version%`     | Returns the version of the operating system.               | `10.0.19042`            |
+| `%machine%`     | Returns the machine type.                                  | `x86_64`                |
+| `%processor%`   | Returns the processor name. 							   | `intel64-family-6-model-158` |
+| `%node%`        | Returns the network name of the machine.                   | `my-computer`           |
+| `%architecture%`| Returns the architecture of the operating system.          | `64bit`                 |
+| `%user%`        | Returns the current logged-in user's name.                 | `john_doe`              |
+| `%hostname%`    | Returns the hostname of the system.                        | `my-hostname`           |
+| `%ip_address%`  | Returns the IP address of the current machine.             | `192.168.1.5`           |
+| `%os_name%`     | Returns the underlying OS name (`posix`, `nt`, etc.).      | `posix`                 |
+

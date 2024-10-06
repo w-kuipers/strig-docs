@@ -1,0 +1,32 @@
+# `var()` function
+
+The `var()` function is used to generate a string by substituting variables defined within a specified format string. These variables are denoted by a % symbol, followed by a variable name. The function can handle standard predefined variables, as well as custom variables provided by a user-defined class.
+
+## Syntax
+### Basic 
+*Will return a string representing a date, using year, month, and day*
+``` python copy
+strig.var("%yyyy%mm%dd") # Example output: '20241006'
+
+```
+
+## Parameters
+| Parameter  | Type  | Default | Description |
+|------------|-------|---------|-------------|
+| varstring  | str   | None    | A required string containing variables to be substituted. Each variable must start with `%`. For example: "%var1%var2%var3". |
+| prefix     | str   | ""      | A string to add at the beginning of the generated result. This prefix will be prepended to the final output. |
+| methods    | class | None    | A class containing custom-defined methods. Each method can be used as a variable in `varstring`. This allows extending beyond the standard predefined variables. |
+
+
+## Using custom methods
+*Extend functionality with custom methods defined in a class*
+``` python copy
+from strig import Methods
+
+class CustomMethods(Methods):
+    def custom_var(self):
+        return "XYZ"
+
+var("%custom_var-%yyyy%mm%dd", methods=CustomMethods()) # Example output: 'XYZ-20241006'
+
+```
