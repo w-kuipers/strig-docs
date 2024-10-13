@@ -1,0 +1,15 @@
+# `urlsafe()` function
+
+The `urlsafe()` function generates a random, URL-safe string that can be used in URLs without the need for encoding. The generated string includes upper and lowercase alphabetic characters, digits, and unreserved URL special characters (`-`, `_`, `.`, `~`).
+
+## Syntax
+### Basic  
+*Will return a 6 character long URL-safe string*
+``` python copy
+strig.urlsafe()  # Example output: 'A3b-Z_'
+```
+
+| Parameter | Type  | Default | Description |
+|-----------|-------|---------|-------------|
+| length    | int   | 6       | The length of the generated random string. |
+| prefix    | str   | ""      | A string to add at the beginning of the generated string. This will add to the length of the generated string. |
