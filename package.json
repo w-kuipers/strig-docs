@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
-  "version": "0.0.1",
-  "description": "Nextra docs template",
+  "name": "strig-documentation",
+  "version": "1.0.0",
+  "description": "Strig Documentation",
   "scripts": {
     "dev": "next dev -p 5000",
     "build": "next build",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/w-kuipers/simpleuid-docs"
+    "url": "git+https://github.com/w-kuipers/strig-docs"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "Wibo Kuipers",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/w-kuipers/strig-docs/issues"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://github.com/w-kuipers/strig-docs#readme",
   "dependencies": {
     "@svgr/webpack": "^8.1.0",
     "next": "^13.0.6",
