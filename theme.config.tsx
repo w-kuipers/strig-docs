@@ -10,8 +10,12 @@ const config: DocsThemeConfig = {
 	useNextSeoProps() {
 		return {
 			titleTemplate: "%s – Strig",
+			description: "A simple and intuitive Python package for generating random strings and numbers.",
 		};
 	},
+	head: (<>
+		<meta name="keywords" content="python, string generation, number generation, random, unique, id, idenitifier, developer tools, database tools, generate random string python, generate random number python, programming, utility tools, python utility, python utility package" />
+	</>),
 	docsRepositoryBase: "https://github.com/w-kuipers/strig-docs",
 	footer: {
 		text: "A simple and intuitive Python package for generating random strings and numbers.",
